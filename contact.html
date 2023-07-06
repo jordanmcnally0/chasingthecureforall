@@ -1,0 +1,130 @@
+<?php include 'mail.php' ?>
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>CTCFA</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv=“X-UA-Compatible” content=“ie=edge”>
+	<meta name="description" content="Free HTML5 Template" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="Jordan" />
+	<link rel="icon" type="image/png" href="images/icon.png">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/superfish.css">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="contact.css">
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="https://kit.fontawesome.com/340cef720c.js" crossorigin="anonymous"></script>
+    
+	
+	
+</head>
+<body>
+    
+
+    <div id="fh5co-wrapper">
+		<div id="fh5co-page">
+			<header id="fh5co-header-section" class="sticky-banner">
+				<div class="container">
+					<div class="nav-header">
+						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
+						<div class="logo"> <img src="images/logo.png" style="max-width:100%;">  </div>
+						<nav id="fh5co-menu-wrap" role="navigation">
+							<ul class="sf-menu" id="fh5co-primary-menu">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="team.html">Team</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+
+    
+
+            <div class="contain">
+                <form onsubmit="sendEmail(); reset(); return false;">
+                    <h3 style="text-align: center;">Apply For A Chase</h3>
+                    <input type="text" id="chasename" placeholder="Name" required>
+                    <input type="text" id="dob" placeholder="Date Of Birth" required>
+                    <input type="text" id="age" placeholder="Age" required>
+                    <input type="text" id="phone" placeholder="Phone Number" required>
+                    <input type="text" id="address" placeholder="Address" required>
+                    <input type="email" id="email" placeholder="Email Address" required>
+                    <input type="text" id="reason" placeholder="Reason For Applying" required>
+                    <h3 style="text-align: center;">Answer From Perspective Of Chase Recipient</h3>
+                    <textarea id="foster" rows="3" placeholder="Were You In Foster Care Before The Age Of 18?"></textarea>
+                    <textarea id="howmany" rows="3" placeholder="How Many People Live At Your Home?"></textarea>
+                    <textarea id="veteran" rows="3" placeholder="Are You A Veteran Of The U.S Armed Forces?"></textarea>
+                    <br>
+                    <h4 style="text-align: center;">By completing this application, you agree:</h4>
+                    <h4 style="text-align: center;">That all of the information provided is accurate and complete and will be verified. Providing
+                        false information will result in a possible denial of a "Chase assistance"</h4>
+                    <h4 style="text-align: center;">I hereby certify that the
+                        information I have provided is accurate and complete.</h4>
+                        <br>
+                        <textarea id="howmany" rows="2" placeholder="Print FULL Name For E-Signature"></textarea>
+                        <br>
+                        &nbsp;
+                    <button type="submit">Send Application</button>
+                        <br>
+                    <h4 style="text-align: center;">
+                        CTCFA "Chasing The Cure For All"</h4>
+                        <br>
+                        <h4 style="text-align: center;">Will function within compliance with all HIPAA Laws, where warranted.</h4>
+                        <br>
+                        <h4 style="text-align: center;">No "Chase's" personal information will be given, shared or otherwise displayed , Without first obtaining written consent from said "Chase" or Legal Representative. To include but not limited to their story, pictures , media and all other forms that will help CTCFA in demonstrating how we are doing in Terms of Help and Bringing Awareness.</h4>
+
+                    
+
+
+                </form>
+                <br>
+
+            </div>
+
+
+	
+
+
+
+    </div>
+			
+
+
+			<footer>
+				<div id="footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3 text-center">
+								<p class="fh5co-social-icons">
+	
+									
+									<a href="info@chasingthecureforall.org"><i class="fas fa-envelope">&nbsp;</i>info@chasingthecureforall.org</a>
+	
+								</p>
+								<p>Copyright @ 2023 Jordan McNally, WebCentric All Rights Reserved. <br>  <i class="fas fa-heart"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/sticky.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.js"></script>
+	<script src="js/main.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script id="ratufa_loader" src="https://www.ratufa.io/c/ld.js?f=cpa91vne&n=n1.ratufa.io"></script>
+</body>
+</html>
